@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lamborgini</title>
+    <!-- w3schools -->
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="/css/lambo.css">
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script:700|Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Sacramento&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/62cb16004c.js" crossorigin="anonymous"></script>
+</head>
+
+
+<body>
+
+    <div class="w3-bar w3-black">
+        <h1 class="logo">Lamborgini</h1>
+        <a href="#" class="top-menu w3-hover-red w3-button w3-hide-small">Home</a>
+        <a href="#galeria" class="top-menu w3-hover-red w3-button w3-hide-small">Gallery</a>
+        <a href="#footer" class="top-menu w3-hover-red  w3-button w3-hide-small">Contact</a>
+        <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium"
+            onclick="myFunction()">&#9776;</a>
+    </div>
+
+    <div id="demo" class="w3-bar-block w3-red w3-hide w3-hide-large w3-hide-medium">
+        <a href="#" class="w3-bar-item w3-button">Home</a>
+        <a href="#galeria" class="w3-bar-item w3-button">Gallery</a>
+        <a href="#footer" class="w3-bar-item w3-button">Contact</a>
+    </div>
+    <img src="/image/thumb-1920-971423.jpg" alt="Lanborggini" class="w3-image" width="100%">
+
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("demo");
+            if (x.className.indexOf("w3-show") == -1) {
+                x.className += " w3-show";
+            } else {
+                x.className = x.className.replace(" w3-show", "");
+            }
+        }
+    </script>
+
+    <!-- Gallery -->
+    <section id="galeria">
+
+        <p class="divition-gallery">----- Gallery -----</p>
+        <div class="galeria w3-container">
+            <img class="w3-animate-left" src="/image/lamborghini-sc-k--wallpaper-1024x768-wallpaper.jpg"
+                alt="lamborgini" class="w3-image" width="75%">
+        </div>
+        <div class="galeria w3-container">
+            <img class="w3-center w3-animate-right" src="/image/lamborghini-sc18-2018-front-zm.jpg" alt="lamborgini"
+                class="w3-image" width="75%">
+        </div>
+    </section>
+
+
+
+</body>
+<!-- Footer -->
+<section id="footer">
+
+    <div class="footer">
+
+        <footer>
+            <i class="fab fa-2x fa-facebook-f"></i>
+            <i class="fab fa-2x fa-twitter"></i>
+            <i class="fab fa-2x  fa-instagram"></i>
+            <a href="#" class="back-button">Back to Top</a>
+        </footer>
+    </div>
+</section>
+
+</html>

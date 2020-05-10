@@ -1,0 +1,39 @@
+body{ 
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.logo{
+    text-align: left;
+    font-family: 'Sacramento', cursive;
+    margin: 3px 1.5% 0;
+    font-size: 3rem;
+    color: red;
+}
+.top-menu{
+    margin: 3% 2.5% 1%;
+}
+.divition-gallery{
+    background-color: black;
+    color: red;
+    margin: 0;
+    text-align: center;
+    font-family: 'Sacramento', cursive;
+    font-size: 3rem;
+}
+.galeria{
+    background-color: black;
+    text-align: center;
+    margin: 0;
+}
+.footer{
+    margin: 0 ;
+    padding: 2%;
+    background-color: red;
+}
+.fab{
+    margin-right: 5px;
+}
+.back-button{
+    text-align: right;
+}
